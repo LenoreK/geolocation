@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name='viewport' content ='width=device-width, intial-scale=1.0'/>
+    <meta http-eqiv='X-UA-Compatible' content='ie=edge' />
+	<title>Geolocation Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+	<link rel="stylesheet" href="style.css">
+    <script src='https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js'></script>
+</head>
+
+<body id="home">
+
+    <h1>Search Maps</h1>
+
+    <p>latitude: <span id='lat'></span><br />
+    longitude: <span id='lon'></span></p> 
+
+    <div id="map"></div>
+
+<canvas id='chart' width='400' height='400'></canvas>
+<script src='logic.js'></script>
+    
+</body>
+</html>
